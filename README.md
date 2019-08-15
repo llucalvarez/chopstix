@@ -23,10 +23,14 @@ install ChopStiX.
 
 To download and setup ChopStiX for installation follow these steps:
 
-    git clone .../chopstix.git chopstix
+    git clone https://github.com/IBM/chopstix.git chopstix
     cd chopstix
     git submodule sync 
     git submodule update --init --recursive
+
+If you download the repository contents directly from `github.com` as a 
+compressed zip file, you also have to download the external depencies
+and decompress them into the `./external` directory. 
 
 ### Support script
 
