@@ -2,5 +2,6 @@
 .vscode
 tags
 build*/
+install*/
 !scripts/build
 *.swp
